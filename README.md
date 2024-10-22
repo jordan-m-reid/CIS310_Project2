@@ -2,6 +2,10 @@
 # Authors: Jordan R., Hussein C., and Hakan T.
 # Date of Completion: 10/22/2024
 
+**1-Bit Adder:** <img width="1140" alt="1BitAdder" src="https://github.com/user-attachments/assets/27fbe3f1-d79e-4880-b6d3-b79eef05e9f4">
+
+**4-Bit Adder/Subtractor:** <img width="1140" alt="4BitAdder" src="https://github.com/user-attachments/assets/b18dc2c3-2971-4ff9-b49e-7335fb2c3ec2">
+
 **Base Case:** <img width="1140" alt="BaseCase_Adder" src="https://github.com/user-attachments/assets/88d33e3f-652c-4db1-b5c6-9fa5841032eb">
 
 **Adder Without Overflow (Carry):** <img width="1140" alt="Adder_NoOverflow" src="https://github.com/user-attachments/assets/7456283c-80f0-4a62-a5a6-99de125bb5aa">
