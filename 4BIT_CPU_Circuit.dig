@@ -73,20 +73,6 @@
       <pos x="580" y="200"/>
     </visualElement>
     <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="360" y="-20"/>
-    </visualElement>
-    <visualElement>
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
@@ -172,6 +158,20 @@
       <elementAttributes/>
       <pos x="360" y="160"/>
     </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Address Jump</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="-40"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -223,6 +223,10 @@
       <p2 x="280" y="-40"/>
     </wire>
     <wire>
+      <p1 x="140" y="-40"/>
+      <p2 x="160" y="-40"/>
+    </wire>
+    <wire>
       <p1 x="140" y="40"/>
       <p2 x="420" y="40"/>
     </wire>
@@ -267,12 +271,16 @@
       <p2 x="280" y="-20"/>
     </wire>
     <wire>
-      <p1 x="360" y="-20"/>
+      <p1 x="380" y="-20"/>
       <p2 x="400" y="-20"/>
     </wire>
     <wire>
       <p1 x="740" y="180"/>
       <p2 x="780" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="20"/>
+      <p2 x="380" y="20"/>
     </wire>
     <wire>
       <p1 x="440" y="120"/>
@@ -305,6 +313,10 @@
     <wire>
       <p1 x="640" y="280"/>
       <p2 x="640" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-40"/>
+      <p2 x="160" y="20"/>
     </wire>
     <wire>
       <p1 x="580" y="-80"/>
@@ -353,6 +365,10 @@
     <wire>
       <p1 x="860" y="400"/>
       <p2 x="860" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-20"/>
+      <p2 x="380" y="20"/>
     </wire>
   </wires>
   <measurementOrdering/>
